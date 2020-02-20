@@ -1,11 +1,48 @@
-
 body {
     font-family: sans-serif;
-    width: 40%;
+    width: 50%;
     margin: auto;
     text-align: center;
 } 
 
 div{
     text-align: justify;
+}
+
+ul {
+    list-style-type: circle;
+  }
+
+.titre{
+    border-bottom-style: solid;
+    border-color: rgb(121, 218, 112);
+    
+}
+
+.bulle{
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1em;
+    padding-right: 1px;
+    background-color: rgb(211, 240, 195);
+    text-align: justify;
+}
+
+.contact{
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1em;
+    padding-right: 1px;
+    background-color: rgb(184, 194, 179);
+    text-align: center;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.italique{
+    font-style: italic;
 }
